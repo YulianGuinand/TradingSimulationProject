@@ -1,15 +1,19 @@
 Analyse du Projet : Transition vers yfinance
 
-Lors de la création d'une application de trading, l'une des premières étapes cruciales est de déterminer comment obtenir les données nécessaires. Doit-on se concentrer sur des données en temps réel ou sur des données historiques pour une perspective d'entraînement ou d'analyse rétrospective ?
+Lors de la création d'une application de trading, l'une des premières étapes cruciales est de déterminer comment obtenir les données nécessaires. Doit-on se concentrer sur des données en temps réel ou sur des données 
+historiques pour une perspective d'entraînement ou d'analyse rétrospective ?
 
 Dans ce contexte, j'ai décidé de privilégier une approche hybride : la collecte de données en temps réel tout en ayant la capacité d'exploiter des données historiques pour des analyses plus approfondies.
 
 J'ai initialement exploré le web scraping comme solution. Cependant, cette méthode ne me permettait d'obtenir que des données en temps réel, sans la profondeur des données historiques que je souhaitais intégrer.
 
-Mon expérience avec Selenium a été marquée par divers défis techniques : des incompatibilités avec différentes versions de chromedriver, des obstacles relatifs au chemin d'accès, des problèmes de connexion, et bien d'autres. Pour pallier ces difficultés, j'ai dû naviguer entre différentes versions du chromedriver, ajuster les délais de chargement des pages, et implémenter des interactions spécifiques pour gérer des éléments comme la pop-up de consentement aux cookies sur https://fr.finance.yahoo/.
+Mon expérience avec Selenium a été marquée par divers défis techniques : des incompatibilités avec différentes versions de chromedriver, des obstacles relatifs au chemin d'accès, des problèmes de connexion, et bien 
+d'autres. Pour pallier ces difficultés, j'ai dû naviguer entre différentes versions du chromedriver, ajuster les délais de chargement des pages, et implémenter des interactions spécifiques pour gérer des éléments 
+comme la pop-up de consentement aux cookies sur https://fr.finance.yahoo/.
 
 Cependant, le défi majeur est survenu lorsque le site a détecté mes activités de scraping, m'affichant ainsi toujours les meême données.
 
 Face à cette contrainte, j'ai cherché une alternative plus fiable et robuste. C'est à ce moment que j'ai découvert et adopté yfinance.
 
-Pour ceux qui souhaitent explorer davantage les détails techniques, le dossier WebScrapping contient la première version de mon programme basé sur Selenium. Quant au dossier Yfinance, il propose une documentation expliquant les raisons de mon choix pour yfinance.
+Pour ceux qui souhaitent explorer davantage les détails techniques, le dossier WebScrapping contient la première version de mon programme basé sur Selenium. Quant au dossier Yfinance, il propose une documentation 
+expliquant les raisons de mon choix pour yfinance.
