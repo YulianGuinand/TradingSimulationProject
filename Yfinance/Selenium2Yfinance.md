@@ -30,4 +30,4 @@ De plus, yfinance propose de télécharger des données historiques avec un déb
 
 **En Conclusion** :
 
-Bien que le web scraping avec Selenium soit une technique puissante, les défis liés à sa mise en œuvre et à sa maintenance m'ont conduit à rechercher des solutions alternatives. yfinance s'est avéré être la réponse idéale, offrant fiabilité, rapidité et facilité d'utilisation. Ainsi, nous allons utiliser la bibliothèque finance dorénavant.
+Bien que le web scraping avec Selenium soit une technique puissante, les défis liés à sa mise en œuvre et à sa maintenance m'ont conduit à rechercher des solutions alternatives. yfinance s'est avéré être la réponse idéale, offrant fiabilité, rapidité et facilité d'utilisation. Ainsi, nous allons utiliser la bibliothèque yfinance.
